@@ -14,8 +14,10 @@ Fish care: cleaning, water temp, water salinity
 -->
 
 <!DOCTYPE html>
+<link rel="main.css">
 <html lang="en">
 <head>
+  <link rel="stylesheet" href="./styles/main.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -23,26 +25,11 @@ Fish care: cleaning, water temp, water salinity
 </head>
 <body>
   <header class="pageHeader">Martin's Aquarium</header>
-    <article class="fishHeader">Martin's Fish</article>
-      <type class="image">
-        <section class="fishImage">image1</section>
-        <section class="fishImage">image2</section> 
-        <section class="fishImage">image3</section> 
-      </type>
-      <type class="details">
-        <section class="fishDetails">detailsObject1</section>
-        <section class="fishDetails">detailsObject2</section>
-        <section class="fishDetails">detailsObject3</section>
-      </type>
-      <type class="tank">
-        <section class="tankDetails">tankObject1</section>
-        <section class="tankDetails">tankObject2</section>
-        <section class="tankDetails">tankObject3</section>
-      </type>
+    <section id="fishContainer"></section>
     <article class="locationHeader">Fish Harvesting Locations</article>
       <type class="quoteSection">*Imagine something that sounds profound but is stupid*</type>
       <type class="locations">*A wonderful embedded map marking where all Martin got his fish*</type>
 
-
+  <script type="module" src="./scripts/main.js"></script>
 </body>
 </html>

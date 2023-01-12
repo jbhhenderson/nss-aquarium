@@ -1,0 +1,20 @@
+.fish__image {
+    height:auto;
+    width: 200px;
+    margin: 10px;
+    border: solid 2px;
+}
+
+.fish {
+    display: flex;
+
+}
+
+.fishies{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    justify-content: center;
+}

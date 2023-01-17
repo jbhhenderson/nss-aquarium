@@ -1,6 +1,8 @@
 import { getFish } from './database.js'
 // Import the FishList function from the correct module
 import { FishList } from './fishList.js'
+import { TipList } from './fishList.js'
+import { LocationList } from './fishList.js'
 
 
 const allFish = getFish()
@@ -20,3 +22,11 @@ const parentHTMLElement = document.querySelector("#fishContainer")
 
 
 parentHTMLElement.innerHTML = FishList()
+
+const tipsParentHTMLElement = document.querySelector("#tipContainer")
+
+tipsParentHTMLElement.innerHTML = TipList()
+
+const locationsParentHTMLElement = document.querySelector('.locationsContainer')
+
+locationsParentHTMLElement.innerHTML = LocationList()
